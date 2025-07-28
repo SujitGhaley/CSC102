@@ -1,0 +1,60 @@
+  /* Body selector applies globally to the whole page */
+        body{
+            /* background color is the back color of the webpage*/
+            background-color: #105c90;
+            /* color is the text color */
+            color: #fefefe;
+        }
+
+        header{
+            /*padding: 20px;*/
+            text-align: center;
+        }
+
+        h1{
+            background-color: #177bb1;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* This is a custom class that will just make the text color red  */
+        .redText{
+            color: rgb(255, 0, 0);
+        }
+
+        #memeImage{
+          width: 300px;
+          position: absolute; /* this will allow our image to move around in the future. */
+          left: 25%;
+          top:25%;
+
+        }
+
+        nav{
+            height: 600px;
+            width: 200px;
+            float: left;
+            padding: 5px;
+            line-height: 30px;
+
+        }
+
+        body {
+            background-color: #014591;
+        }
+        h1 {
+            color: #d7f1ff;
+        }
+        p {
+            color: #d7f1ff;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+         footer{
+            text-align: center;
+            margin-right: 200px;
+
+        }
