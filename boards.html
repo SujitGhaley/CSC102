@@ -11,7 +11,11 @@
     <!-- This is for mobile devices to show the page better -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- This title will appear in the browser tab. Make it short and descriptive. -->
-    <title>CSC102 Boards</title>
+    <title>CSC102 Boards Page</title>
+    <!-- There are 3 ways to include CSS in our page
+        *External CSS - the CSS styles are in a seperate .CSS file - best practice
+         Embeded CSS -  the CSS styles apply to just 1 page - <style> </style> ; okay to use sparingly
+         *Inline CSS - set styles on a particular HTML element - very time consuming to update; try to avoid -->
 </head>
 
 <!-- Everything we want to show to the user goes here -->
@@ -20,9 +24,10 @@
      <header>
         <!-- This is a navigation menu section -->
         <nav>
-            <!-- The a tag is the anchor tag used for navigation, it creates a hyperlink -->
-            <a href="index.html">Home</a> &nbsp;
-            <a href="boards.html">Boards</a>
+            <!-- Here is an example of inline CSS - don't use unless absolutely necessary - this example changes the link to color blue and red -->
+            <!-- The <a> tag is the anchor tag used for navigation, it creates a hyperlink -->
+            <a href="index.html" style="color:rgb(0, 128, 255)">Home</a> &nbsp;
+            <a href="boards.html" style="color:rgb(255, 0, 0)">Boards</a>
         </nav>    
      </header>
 
