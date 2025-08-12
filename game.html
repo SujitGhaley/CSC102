@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujit's Game</title>
+    <script src="code.js"></script>
+    <!-- add in the CSS file created in Assignment 2.1 -->
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+           <h1>Welcome to Ronaldo & Messi Jersey Roll.</h1>
+        <!-- This is a navigation menu section -->
+        <nav>
+            <!-- Here is an example of inline CSS - don't use unless absolutely necessary - this example changes the link to color blue and red -->
+            <!-- The a tag is the anchor tag used for navigation, it creates a hyperlink -->
+            <a href="index.html" style="color:rgb(255, 255, 255)">Home</a> &nbsp;
+            <a href="boards.html" style="color:rgb(97, 255, 128)">Boards</a> &nbsp;
+            <!-- This is the new link to the game page -->
+            <a href="game.html" style="color:rgb(108, 223, 255)">Game</a>
+        </nav>    
+     </header>
+
+     <!-- Add a button to start the game -->
+     <button onclick="startGame();">Start Game</button>
+
+     <!-- This is a paragraph explaining the game rules -->
+     <p> Try to roll your favorite jersey numbers — 7 (Ronaldo) or 10 (Messi) — to win!
+        <br>
+        If you roll anything else, you lose.
+     </p>
+
+     <div id="divDie1">You have rolled:</div>
+     <div id="divResult">Game Result</div>
+
+     <!-- JavaScript code goes for our script tag not HTML or CSS code-->
+     <script src="game.js">
+     </script>
+</body>
+</html>
