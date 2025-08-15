@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Validation</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<!-- ToDo: Add header with menu here -->
+  <header>
+        <!-- This is a navigation menu section -->
+         <h1>Welcome to my login page.</h1>
+
+        <nav>
+            <!-- Here is an example of inline CSS - don't use unless absolutely necessary - this example changes the link to color blue and red -->
+            <!-- The <a> tag is the anchor tag used for navigation, it creates a hyperlink -->
+            <a href="index.html" style="color:rgb(255, 255, 255)">Home</a> 
+            <br>
+            <a href="boards.html" style="color:rgb(97, 255, 128)">Boards</a> 
+            <br>
+            <!-- This is the new link to the game page -->
+            <a href="game.html" style="color:rgb(108, 223, 255)">Game</a> 
+            <br>
+            <a href="strings.html" style="color:rgb(222, 121, 247)">Login</a>
+
+        </nav>
+    </header>
+
+ <main>
+    <h2>Please login to view a message!</h2>
+    <div id="divMessage"></div>
+    <form method=" post" onsubmit="return validateForm();">
+        <label for="txtFirstName">First Name:</label>
+        <input type="text" id="txtFirstName" name="txtFirstName">
+        <br><br>
+        <label for="txtLastName">Last Name:</label>
+        <input type="text" id="txtLastName" name="txtLastName">
+        <br><br>
+        <label for="txtZip">Zip Code:</label>
+        <input type="text" id="txtZip" name="txtZip">
+        <br><br>
+        <input type="submit" value="Submit Inputs">
+    </form>
+ </main>
+
+ <!-- ToDo: include the function from code.js -->
+     <script src="code.js">
+     </script>
+</body>
+</html>
