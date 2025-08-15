@@ -4,6 +4,8 @@
             background-color: #105c90;
             /* color is the text color */
             color: #fefefe;
+            margin: 0;
+            padding: 0;
         }
 
         header{
@@ -16,6 +18,7 @@
             color: rgb(255, 255, 255);
             padding: 20px;
             text-align: center;
+            margin: 0;
         }
 
         /* This is a custom class that will just make the text color red  */
@@ -23,6 +26,7 @@
             color: rgb(255, 0, 0);
         }
 
+        /* <img id="memeImage" src="programming-meme-14.jpg" alt="Meme Image"> */
         #memeImage{
           width: 300px;
           position: absolute; /* this will allow our image to move around in the future. */
@@ -56,5 +60,14 @@
          footer{
             text-align: center;
             margin-right: 200px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding-bottom: 10px;
 
         }
+
+    a {
+         color: #fefefe;
+        text-decoration: none;
+    }

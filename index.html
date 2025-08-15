@@ -24,6 +24,8 @@
 <body>
 <!-- Create a header section -->
      <header>
+        <!-- Add header text. There should be only 1 h1 tag on a page. -->
+    <h1>Welcome to Sujit's CSC102 page.</h1>
         <!-- This is a navigation menu section -->
         <nav>
             <!-- Here is an example of inline CSS - don't use unless absolutely necessary - this example changes the link to color blue and red -->
@@ -34,8 +36,11 @@
             <a href="game.html" style="color:rgb(108, 223, 255)">Game</a>
         </nav>    
      </header>
-    <!-- Add header text. There should be only 1 h1 tag on a page. -->
-    <h1>Welcome to Sujit's CSC102 page.</h1>
+     <!-- this button will start the image moving -->
+     <button id="btnStart" onclick="startMove();">Start Image Moving</button>
+    
+     <!-- this button will stop the image moving -->
+     <button id="btnStop" onclick="stopMove();" disabled="true">Stop Image Moving</button>
 
     <!-- This is a paragraph. There will be spacing before and after the p tags. -->
     <p>
@@ -45,11 +50,17 @@
 <!-- Add a footer to the bottom of the page -->
 <footer>
     <!-- <br> creates a new line-->
-    Sujit Ghaley<br>
-    University of Advancing Technology<br>
-    2625 W Baseline Rd.<br>
-    Tempe, AZ 85283<br>
+    Sujit Ghaley
+    <br>
+    University of Advancing Technology
+    <br>
+    2625 W Baseline Rd.
+    <br>
+    Tempe, AZ 85283
 </footer>
+
+<!-- Javascript code is in a seperate js. file -->
+<script src="code.js"></script>
 
  <!-- Make sure the closing tag is at the bottom of the page -->
 </body>
