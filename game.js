@@ -28,8 +28,7 @@
                 //display a message to the user that they won
                 console.log("You win! :D");
 
-                
-            divResult.textContent = "You win! :D"; // Update the game result display to show win message
+                divResult.textContent = "You win! :D"; // Update the game result display to show win message
             }
 
            // if die1 is not 10, you lose
